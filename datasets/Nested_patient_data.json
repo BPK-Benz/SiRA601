@@ -1,0 +1,28 @@
+[
+    {
+        "patient": {
+            "id": "P001",
+            "name": "John Doe",
+            "age": 45,
+            "gender": "Male"
+        },
+        "scan": {
+            "modality": "CT",
+            "region": "Head",
+            "date": "2025-07-10"
+        }
+    },
+    {
+        "patient": {
+            "id": "P002",
+            "name": "Jane Smith",
+            "age": 38,
+            "gender": "Female"
+        },
+        "scan": {
+            "modality": "MRI",
+            "region": "Spine",
+            "date": "2025-07-09"
+        }
+    }
+]

@@ -1,0 +1,1082 @@
+[
+  {
+    "Patient": {
+      "ID": "RID1000",
+      "Name": "Patient_1",
+      "Age": 30,
+      "Gender": "Male"
+    },
+    "Study": {
+      "Modality": "CT",
+      "Region": "Head",
+      "StudyDate": "2025-07-01",
+      "Images": [
+        {
+          "ImageID": "IMG1_1",
+          "SliceLocation": 0,
+          "ImagePath": "/dicom/patient_1/img_1.dcm"
+        },
+        {
+          "ImageID": "IMG1_2",
+          "SliceLocation": 5,
+          "ImagePath": "/dicom/patient_1/img_2.dcm"
+        },
+        {
+          "ImageID": "IMG1_3",
+          "SliceLocation": 10,
+          "ImagePath": "/dicom/patient_1/img_3.dcm"
+        }
+      ]
+    },
+    "Report": {
+      "Radiologist": "Dr. A. Smith",
+      "Findings": "Normal",
+      "Impression": "Normal noted in the Head region.",
+      "Recommendations": "Follow-up in 6 months"
+    }
+  },
+  {
+    "Patient": {
+      "ID": "RID1001",
+      "Name": "Patient_2",
+      "Age": 31,
+      "Gender": "Female"
+    },
+    "Study": {
+      "Modality": "MRI",
+      "Region": "Chest",
+      "StudyDate": "2025-07-02",
+      "Images": [
+        {
+          "ImageID": "IMG2_1",
+          "SliceLocation": 0,
+          "ImagePath": "/dicom/patient_2/img_1.dcm"
+        },
+        {
+          "ImageID": "IMG2_2",
+          "SliceLocation": 5,
+          "ImagePath": "/dicom/patient_2/img_2.dcm"
+        },
+        {
+          "ImageID": "IMG2_3",
+          "SliceLocation": 10,
+          "ImagePath": "/dicom/patient_2/img_3.dcm"
+        }
+      ]
+    },
+    "Report": {
+      "Radiologist": "Dr. B. Smith",
+      "Findings": "Fracture",
+      "Impression": "Fracture noted in the Chest region.",
+      "Recommendations": "No further action required"
+    }
+  },
+  {
+    "Patient": {
+      "ID": "RID1002",
+      "Name": "Patient_3",
+      "Age": 32,
+      "Gender": "Male"
+    },
+    "Study": {
+      "Modality": "X-ray",
+      "Region": "Abdomen",
+      "StudyDate": "2025-07-03",
+      "Images": [
+        {
+          "ImageID": "IMG3_1",
+          "SliceLocation": 0,
+          "ImagePath": "/dicom/patient_3/img_1.dcm"
+        },
+        {
+          "ImageID": "IMG3_2",
+          "SliceLocation": 5,
+          "ImagePath": "/dicom/patient_3/img_2.dcm"
+        },
+        {
+          "ImageID": "IMG3_3",
+          "SliceLocation": 10,
+          "ImagePath": "/dicom/patient_3/img_3.dcm"
+        }
+      ]
+    },
+    "Report": {
+      "Radiologist": "Dr. C. Smith",
+      "Findings": "Tumor",
+      "Impression": "Tumor noted in the Abdomen region.",
+      "Recommendations": "No further action required"
+    }
+  },
+  {
+    "Patient": {
+      "ID": "RID1003",
+      "Name": "Patient_4",
+      "Age": 33,
+      "Gender": "Female"
+    },
+    "Study": {
+      "Modality": "Ultrasound",
+      "Region": "Spine",
+      "StudyDate": "2025-07-04",
+      "Images": [
+        {
+          "ImageID": "IMG4_1",
+          "SliceLocation": 0,
+          "ImagePath": "/dicom/patient_4/img_1.dcm"
+        },
+        {
+          "ImageID": "IMG4_2",
+          "SliceLocation": 5,
+          "ImagePath": "/dicom/patient_4/img_2.dcm"
+        },
+        {
+          "ImageID": "IMG4_3",
+          "SliceLocation": 10,
+          "ImagePath": "/dicom/patient_4/img_3.dcm"
+        }
+      ]
+    },
+    "Report": {
+      "Radiologist": "Dr. D. Smith",
+      "Findings": "Infection",
+      "Impression": "Infection noted in the Spine region.",
+      "Recommendations": "Follow-up in 6 months"
+    }
+  },
+  {
+    "Patient": {
+      "ID": "RID1004",
+      "Name": "Patient_5",
+      "Age": 34,
+      "Gender": "Male"
+    },
+    "Study": {
+      "Modality": "PET",
+      "Region": "Pelvis",
+      "StudyDate": "2025-07-05",
+      "Images": [
+        {
+          "ImageID": "IMG5_1",
+          "SliceLocation": 0,
+          "ImagePath": "/dicom/patient_5/img_1.dcm"
+        },
+        {
+          "ImageID": "IMG5_2",
+          "SliceLocation": 5,
+          "ImagePath": "/dicom/patient_5/img_2.dcm"
+        },
+        {
+          "ImageID": "IMG5_3",
+          "SliceLocation": 10,
+          "ImagePath": "/dicom/patient_5/img_3.dcm"
+        }
+      ]
+    },
+    "Report": {
+      "Radiologist": "Dr. E. Smith",
+      "Findings": "Degeneration",
+      "Impression": "Degeneration noted in the Pelvis region.",
+      "Recommendations": "No further action required"
+    }
+  },
+  {
+    "Patient": {
+      "ID": "RID1005",
+      "Name": "Patient_6",
+      "Age": 35,
+      "Gender": "Female"
+    },
+    "Study": {
+      "Modality": "SPECT",
+      "Region": "Extremity",
+      "StudyDate": "2025-07-06",
+      "Images": [
+        {
+          "ImageID": "IMG6_1",
+          "SliceLocation": 0,
+          "ImagePath": "/dicom/patient_6/img_1.dcm"
+        },
+        {
+          "ImageID": "IMG6_2",
+          "SliceLocation": 5,
+          "ImagePath": "/dicom/patient_6/img_2.dcm"
+        },
+        {
+          "ImageID": "IMG6_3",
+          "SliceLocation": 10,
+          "ImagePath": "/dicom/patient_6/img_3.dcm"
+        }
+      ]
+    },
+    "Report": {
+      "Radiologist": "Dr. A. Smith",
+      "Findings": "Inflammation",
+      "Impression": "Inflammation noted in the Extremity region.",
+      "Recommendations": "No further action required"
+    }
+  },
+  {
+    "Patient": {
+      "ID": "RID1006",
+      "Name": "Patient_7",
+      "Age": 36,
+      "Gender": "Male"
+    },
+    "Study": {
+      "Modality": "CT",
+      "Region": "Head",
+      "StudyDate": "2025-07-07",
+      "Images": [
+        {
+          "ImageID": "IMG7_1",
+          "SliceLocation": 0,
+          "ImagePath": "/dicom/patient_7/img_1.dcm"
+        },
+        {
+          "ImageID": "IMG7_2",
+          "SliceLocation": 5,
+          "ImagePath": "/dicom/patient_7/img_2.dcm"
+        },
+        {
+          "ImageID": "IMG7_3",
+          "SliceLocation": 10,
+          "ImagePath": "/dicom/patient_7/img_3.dcm"
+        }
+      ]
+    },
+    "Report": {
+      "Radiologist": "Dr. B. Smith",
+      "Findings": "Normal",
+      "Impression": "Normal noted in the Head region.",
+      "Recommendations": "Follow-up in 6 months"
+    }
+  },
+  {
+    "Patient": {
+      "ID": "RID1007",
+      "Name": "Patient_8",
+      "Age": 37,
+      "Gender": "Female"
+    },
+    "Study": {
+      "Modality": "MRI",
+      "Region": "Chest",
+      "StudyDate": "2025-07-08",
+      "Images": [
+        {
+          "ImageID": "IMG8_1",
+          "SliceLocation": 0,
+          "ImagePath": "/dicom/patient_8/img_1.dcm"
+        },
+        {
+          "ImageID": "IMG8_2",
+          "SliceLocation": 5,
+          "ImagePath": "/dicom/patient_8/img_2.dcm"
+        },
+        {
+          "ImageID": "IMG8_3",
+          "SliceLocation": 10,
+          "ImagePath": "/dicom/patient_8/img_3.dcm"
+        }
+      ]
+    },
+    "Report": {
+      "Radiologist": "Dr. C. Smith",
+      "Findings": "Fracture",
+      "Impression": "Fracture noted in the Chest region.",
+      "Recommendations": "No further action required"
+    }
+  },
+  {
+    "Patient": {
+      "ID": "RID1008",
+      "Name": "Patient_9",
+      "Age": 38,
+      "Gender": "Male"
+    },
+    "Study": {
+      "Modality": "X-ray",
+      "Region": "Abdomen",
+      "StudyDate": "2025-07-09",
+      "Images": [
+        {
+          "ImageID": "IMG9_1",
+          "SliceLocation": 0,
+          "ImagePath": "/dicom/patient_9/img_1.dcm"
+        },
+        {
+          "ImageID": "IMG9_2",
+          "SliceLocation": 5,
+          "ImagePath": "/dicom/patient_9/img_2.dcm"
+        },
+        {
+          "ImageID": "IMG9_3",
+          "SliceLocation": 10,
+          "ImagePath": "/dicom/patient_9/img_3.dcm"
+        }
+      ]
+    },
+    "Report": {
+      "Radiologist": "Dr. D. Smith",
+      "Findings": "Tumor",
+      "Impression": "Tumor noted in the Abdomen region.",
+      "Recommendations": "No further action required"
+    }
+  },
+  {
+    "Patient": {
+      "ID": "RID1009",
+      "Name": "Patient_10",
+      "Age": 39,
+      "Gender": "Female"
+    },
+    "Study": {
+      "Modality": "Ultrasound",
+      "Region": "Spine",
+      "StudyDate": "2025-07-10",
+      "Images": [
+        {
+          "ImageID": "IMG10_1",
+          "SliceLocation": 0,
+          "ImagePath": "/dicom/patient_10/img_1.dcm"
+        },
+        {
+          "ImageID": "IMG10_2",
+          "SliceLocation": 5,
+          "ImagePath": "/dicom/patient_10/img_2.dcm"
+        },
+        {
+          "ImageID": "IMG10_3",
+          "SliceLocation": 10,
+          "ImagePath": "/dicom/patient_10/img_3.dcm"
+        }
+      ]
+    },
+    "Report": {
+      "Radiologist": "Dr. E. Smith",
+      "Findings": "Infection",
+      "Impression": "Infection noted in the Spine region.",
+      "Recommendations": "Follow-up in 6 months"
+    }
+  },
+  {
+    "Patient": {
+      "ID": "RID1010",
+      "Name": "Patient_11",
+      "Age": 40,
+      "Gender": "Male"
+    },
+    "Study": {
+      "Modality": "PET",
+      "Region": "Pelvis",
+      "StudyDate": "2025-07-11",
+      "Images": [
+        {
+          "ImageID": "IMG11_1",
+          "SliceLocation": 0,
+          "ImagePath": "/dicom/patient_11/img_1.dcm"
+        },
+        {
+          "ImageID": "IMG11_2",
+          "SliceLocation": 5,
+          "ImagePath": "/dicom/patient_11/img_2.dcm"
+        },
+        {
+          "ImageID": "IMG11_3",
+          "SliceLocation": 10,
+          "ImagePath": "/dicom/patient_11/img_3.dcm"
+        }
+      ]
+    },
+    "Report": {
+      "Radiologist": "Dr. A. Smith",
+      "Findings": "Degeneration",
+      "Impression": "Degeneration noted in the Pelvis region.",
+      "Recommendations": "No further action required"
+    }
+  },
+  {
+    "Patient": {
+      "ID": "RID1011",
+      "Name": "Patient_12",
+      "Age": 41,
+      "Gender": "Female"
+    },
+    "Study": {
+      "Modality": "SPECT",
+      "Region": "Extremity",
+      "StudyDate": "2025-07-12",
+      "Images": [
+        {
+          "ImageID": "IMG12_1",
+          "SliceLocation": 0,
+          "ImagePath": "/dicom/patient_12/img_1.dcm"
+        },
+        {
+          "ImageID": "IMG12_2",
+          "SliceLocation": 5,
+          "ImagePath": "/dicom/patient_12/img_2.dcm"
+        },
+        {
+          "ImageID": "IMG12_3",
+          "SliceLocation": 10,
+          "ImagePath": "/dicom/patient_12/img_3.dcm"
+        }
+      ]
+    },
+    "Report": {
+      "Radiologist": "Dr. B. Smith",
+      "Findings": "Inflammation",
+      "Impression": "Inflammation noted in the Extremity region.",
+      "Recommendations": "No further action required"
+    }
+  },
+  {
+    "Patient": {
+      "ID": "RID1012",
+      "Name": "Patient_13",
+      "Age": 42,
+      "Gender": "Male"
+    },
+    "Study": {
+      "Modality": "CT",
+      "Region": "Head",
+      "StudyDate": "2025-07-13",
+      "Images": [
+        {
+          "ImageID": "IMG13_1",
+          "SliceLocation": 0,
+          "ImagePath": "/dicom/patient_13/img_1.dcm"
+        },
+        {
+          "ImageID": "IMG13_2",
+          "SliceLocation": 5,
+          "ImagePath": "/dicom/patient_13/img_2.dcm"
+        },
+        {
+          "ImageID": "IMG13_3",
+          "SliceLocation": 10,
+          "ImagePath": "/dicom/patient_13/img_3.dcm"
+        }
+      ]
+    },
+    "Report": {
+      "Radiologist": "Dr. C. Smith",
+      "Findings": "Normal",
+      "Impression": "Normal noted in the Head region.",
+      "Recommendations": "Follow-up in 6 months"
+    }
+  },
+  {
+    "Patient": {
+      "ID": "RID1013",
+      "Name": "Patient_14",
+      "Age": 43,
+      "Gender": "Female"
+    },
+    "Study": {
+      "Modality": "MRI",
+      "Region": "Chest",
+      "StudyDate": "2025-07-14",
+      "Images": [
+        {
+          "ImageID": "IMG14_1",
+          "SliceLocation": 0,
+          "ImagePath": "/dicom/patient_14/img_1.dcm"
+        },
+        {
+          "ImageID": "IMG14_2",
+          "SliceLocation": 5,
+          "ImagePath": "/dicom/patient_14/img_2.dcm"
+        },
+        {
+          "ImageID": "IMG14_3",
+          "SliceLocation": 10,
+          "ImagePath": "/dicom/patient_14/img_3.dcm"
+        }
+      ]
+    },
+    "Report": {
+      "Radiologist": "Dr. D. Smith",
+      "Findings": "Fracture",
+      "Impression": "Fracture noted in the Chest region.",
+      "Recommendations": "No further action required"
+    }
+  },
+  {
+    "Patient": {
+      "ID": "RID1014",
+      "Name": "Patient_15",
+      "Age": 44,
+      "Gender": "Male"
+    },
+    "Study": {
+      "Modality": "X-ray",
+      "Region": "Abdomen",
+      "StudyDate": "2025-07-15",
+      "Images": [
+        {
+          "ImageID": "IMG15_1",
+          "SliceLocation": 0,
+          "ImagePath": "/dicom/patient_15/img_1.dcm"
+        },
+        {
+          "ImageID": "IMG15_2",
+          "SliceLocation": 5,
+          "ImagePath": "/dicom/patient_15/img_2.dcm"
+        },
+        {
+          "ImageID": "IMG15_3",
+          "SliceLocation": 10,
+          "ImagePath": "/dicom/patient_15/img_3.dcm"
+        }
+      ]
+    },
+    "Report": {
+      "Radiologist": "Dr. E. Smith",
+      "Findings": "Tumor",
+      "Impression": "Tumor noted in the Abdomen region.",
+      "Recommendations": "No further action required"
+    }
+  },
+  {
+    "Patient": {
+      "ID": "RID1015",
+      "Name": "Patient_16",
+      "Age": 45,
+      "Gender": "Female"
+    },
+    "Study": {
+      "Modality": "Ultrasound",
+      "Region": "Spine",
+      "StudyDate": "2025-07-16",
+      "Images": [
+        {
+          "ImageID": "IMG16_1",
+          "SliceLocation": 0,
+          "ImagePath": "/dicom/patient_16/img_1.dcm"
+        },
+        {
+          "ImageID": "IMG16_2",
+          "SliceLocation": 5,
+          "ImagePath": "/dicom/patient_16/img_2.dcm"
+        },
+        {
+          "ImageID": "IMG16_3",
+          "SliceLocation": 10,
+          "ImagePath": "/dicom/patient_16/img_3.dcm"
+        }
+      ]
+    },
+    "Report": {
+      "Radiologist": "Dr. A. Smith",
+      "Findings": "Infection",
+      "Impression": "Infection noted in the Spine region.",
+      "Recommendations": "Follow-up in 6 months"
+    }
+  },
+  {
+    "Patient": {
+      "ID": "RID1016",
+      "Name": "Patient_17",
+      "Age": 46,
+      "Gender": "Male"
+    },
+    "Study": {
+      "Modality": "PET",
+      "Region": "Pelvis",
+      "StudyDate": "2025-07-17",
+      "Images": [
+        {
+          "ImageID": "IMG17_1",
+          "SliceLocation": 0,
+          "ImagePath": "/dicom/patient_17/img_1.dcm"
+        },
+        {
+          "ImageID": "IMG17_2",
+          "SliceLocation": 5,
+          "ImagePath": "/dicom/patient_17/img_2.dcm"
+        },
+        {
+          "ImageID": "IMG17_3",
+          "SliceLocation": 10,
+          "ImagePath": "/dicom/patient_17/img_3.dcm"
+        }
+      ]
+    },
+    "Report": {
+      "Radiologist": "Dr. B. Smith",
+      "Findings": "Degeneration",
+      "Impression": "Degeneration noted in the Pelvis region.",
+      "Recommendations": "No further action required"
+    }
+  },
+  {
+    "Patient": {
+      "ID": "RID1017",
+      "Name": "Patient_18",
+      "Age": 47,
+      "Gender": "Female"
+    },
+    "Study": {
+      "Modality": "SPECT",
+      "Region": "Extremity",
+      "StudyDate": "2025-07-18",
+      "Images": [
+        {
+          "ImageID": "IMG18_1",
+          "SliceLocation": 0,
+          "ImagePath": "/dicom/patient_18/img_1.dcm"
+        },
+        {
+          "ImageID": "IMG18_2",
+          "SliceLocation": 5,
+          "ImagePath": "/dicom/patient_18/img_2.dcm"
+        },
+        {
+          "ImageID": "IMG18_3",
+          "SliceLocation": 10,
+          "ImagePath": "/dicom/patient_18/img_3.dcm"
+        }
+      ]
+    },
+    "Report": {
+      "Radiologist": "Dr. C. Smith",
+      "Findings": "Inflammation",
+      "Impression": "Inflammation noted in the Extremity region.",
+      "Recommendations": "No further action required"
+    }
+  },
+  {
+    "Patient": {
+      "ID": "RID1018",
+      "Name": "Patient_19",
+      "Age": 48,
+      "Gender": "Male"
+    },
+    "Study": {
+      "Modality": "CT",
+      "Region": "Head",
+      "StudyDate": "2025-07-19",
+      "Images": [
+        {
+          "ImageID": "IMG19_1",
+          "SliceLocation": 0,
+          "ImagePath": "/dicom/patient_19/img_1.dcm"
+        },
+        {
+          "ImageID": "IMG19_2",
+          "SliceLocation": 5,
+          "ImagePath": "/dicom/patient_19/img_2.dcm"
+        },
+        {
+          "ImageID": "IMG19_3",
+          "SliceLocation": 10,
+          "ImagePath": "/dicom/patient_19/img_3.dcm"
+        }
+      ]
+    },
+    "Report": {
+      "Radiologist": "Dr. D. Smith",
+      "Findings": "Normal",
+      "Impression": "Normal noted in the Head region.",
+      "Recommendations": "Follow-up in 6 months"
+    }
+  },
+  {
+    "Patient": {
+      "ID": "RID1019",
+      "Name": "Patient_20",
+      "Age": 49,
+      "Gender": "Female"
+    },
+    "Study": {
+      "Modality": "MRI",
+      "Region": "Chest",
+      "StudyDate": "2025-07-20",
+      "Images": [
+        {
+          "ImageID": "IMG20_1",
+          "SliceLocation": 0,
+          "ImagePath": "/dicom/patient_20/img_1.dcm"
+        },
+        {
+          "ImageID": "IMG20_2",
+          "SliceLocation": 5,
+          "ImagePath": "/dicom/patient_20/img_2.dcm"
+        },
+        {
+          "ImageID": "IMG20_3",
+          "SliceLocation": 10,
+          "ImagePath": "/dicom/patient_20/img_3.dcm"
+        }
+      ]
+    },
+    "Report": {
+      "Radiologist": "Dr. E. Smith",
+      "Findings": "Fracture",
+      "Impression": "Fracture noted in the Chest region.",
+      "Recommendations": "No further action required"
+    }
+  },
+  {
+    "Patient": {
+      "ID": "RID1020",
+      "Name": "Patient_21",
+      "Age": 30,
+      "Gender": "Male"
+    },
+    "Study": {
+      "Modality": "X-ray",
+      "Region": "Abdomen",
+      "StudyDate": "2025-07-21",
+      "Images": [
+        {
+          "ImageID": "IMG21_1",
+          "SliceLocation": 0,
+          "ImagePath": "/dicom/patient_21/img_1.dcm"
+        },
+        {
+          "ImageID": "IMG21_2",
+          "SliceLocation": 5,
+          "ImagePath": "/dicom/patient_21/img_2.dcm"
+        },
+        {
+          "ImageID": "IMG21_3",
+          "SliceLocation": 10,
+          "ImagePath": "/dicom/patient_21/img_3.dcm"
+        }
+      ]
+    },
+    "Report": {
+      "Radiologist": "Dr. A. Smith",
+      "Findings": "Tumor",
+      "Impression": "Tumor noted in the Abdomen region.",
+      "Recommendations": "No further action required"
+    }
+  },
+  {
+    "Patient": {
+      "ID": "RID1021",
+      "Name": "Patient_22",
+      "Age": 31,
+      "Gender": "Female"
+    },
+    "Study": {
+      "Modality": "Ultrasound",
+      "Region": "Spine",
+      "StudyDate": "2025-07-22",
+      "Images": [
+        {
+          "ImageID": "IMG22_1",
+          "SliceLocation": 0,
+          "ImagePath": "/dicom/patient_22/img_1.dcm"
+        },
+        {
+          "ImageID": "IMG22_2",
+          "SliceLocation": 5,
+          "ImagePath": "/dicom/patient_22/img_2.dcm"
+        },
+        {
+          "ImageID": "IMG22_3",
+          "SliceLocation": 10,
+          "ImagePath": "/dicom/patient_22/img_3.dcm"
+        }
+      ]
+    },
+    "Report": {
+      "Radiologist": "Dr. B. Smith",
+      "Findings": "Infection",
+      "Impression": "Infection noted in the Spine region.",
+      "Recommendations": "Follow-up in 6 months"
+    }
+  },
+  {
+    "Patient": {
+      "ID": "RID1022",
+      "Name": "Patient_23",
+      "Age": 32,
+      "Gender": "Male"
+    },
+    "Study": {
+      "Modality": "PET",
+      "Region": "Pelvis",
+      "StudyDate": "2025-07-23",
+      "Images": [
+        {
+          "ImageID": "IMG23_1",
+          "SliceLocation": 0,
+          "ImagePath": "/dicom/patient_23/img_1.dcm"
+        },
+        {
+          "ImageID": "IMG23_2",
+          "SliceLocation": 5,
+          "ImagePath": "/dicom/patient_23/img_2.dcm"
+        },
+        {
+          "ImageID": "IMG23_3",
+          "SliceLocation": 10,
+          "ImagePath": "/dicom/patient_23/img_3.dcm"
+        }
+      ]
+    },
+    "Report": {
+      "Radiologist": "Dr. C. Smith",
+      "Findings": "Degeneration",
+      "Impression": "Degeneration noted in the Pelvis region.",
+      "Recommendations": "No further action required"
+    }
+  },
+  {
+    "Patient": {
+      "ID": "RID1023",
+      "Name": "Patient_24",
+      "Age": 33,
+      "Gender": "Female"
+    },
+    "Study": {
+      "Modality": "SPECT",
+      "Region": "Extremity",
+      "StudyDate": "2025-07-24",
+      "Images": [
+        {
+          "ImageID": "IMG24_1",
+          "SliceLocation": 0,
+          "ImagePath": "/dicom/patient_24/img_1.dcm"
+        },
+        {
+          "ImageID": "IMG24_2",
+          "SliceLocation": 5,
+          "ImagePath": "/dicom/patient_24/img_2.dcm"
+        },
+        {
+          "ImageID": "IMG24_3",
+          "SliceLocation": 10,
+          "ImagePath": "/dicom/patient_24/img_3.dcm"
+        }
+      ]
+    },
+    "Report": {
+      "Radiologist": "Dr. D. Smith",
+      "Findings": "Inflammation",
+      "Impression": "Inflammation noted in the Extremity region.",
+      "Recommendations": "No further action required"
+    }
+  },
+  {
+    "Patient": {
+      "ID": "RID1024",
+      "Name": "Patient_25",
+      "Age": 34,
+      "Gender": "Male"
+    },
+    "Study": {
+      "Modality": "CT",
+      "Region": "Head",
+      "StudyDate": "2025-07-25",
+      "Images": [
+        {
+          "ImageID": "IMG25_1",
+          "SliceLocation": 0,
+          "ImagePath": "/dicom/patient_25/img_1.dcm"
+        },
+        {
+          "ImageID": "IMG25_2",
+          "SliceLocation": 5,
+          "ImagePath": "/dicom/patient_25/img_2.dcm"
+        },
+        {
+          "ImageID": "IMG25_3",
+          "SliceLocation": 10,
+          "ImagePath": "/dicom/patient_25/img_3.dcm"
+        }
+      ]
+    },
+    "Report": {
+      "Radiologist": "Dr. E. Smith",
+      "Findings": "Normal",
+      "Impression": "Normal noted in the Head region.",
+      "Recommendations": "Follow-up in 6 months"
+    }
+  },
+  {
+    "Patient": {
+      "ID": "RID1025",
+      "Name": "Patient_26",
+      "Age": 35,
+      "Gender": "Female"
+    },
+    "Study": {
+      "Modality": "MRI",
+      "Region": "Chest",
+      "StudyDate": "2025-07-26",
+      "Images": [
+        {
+          "ImageID": "IMG26_1",
+          "SliceLocation": 0,
+          "ImagePath": "/dicom/patient_26/img_1.dcm"
+        },
+        {
+          "ImageID": "IMG26_2",
+          "SliceLocation": 5,
+          "ImagePath": "/dicom/patient_26/img_2.dcm"
+        },
+        {
+          "ImageID": "IMG26_3",
+          "SliceLocation": 10,
+          "ImagePath": "/dicom/patient_26/img_3.dcm"
+        }
+      ]
+    },
+    "Report": {
+      "Radiologist": "Dr. A. Smith",
+      "Findings": "Fracture",
+      "Impression": "Fracture noted in the Chest region.",
+      "Recommendations": "No further action required"
+    }
+  },
+  {
+    "Patient": {
+      "ID": "RID1026",
+      "Name": "Patient_27",
+      "Age": 36,
+      "Gender": "Male"
+    },
+    "Study": {
+      "Modality": "X-ray",
+      "Region": "Abdomen",
+      "StudyDate": "2025-07-27",
+      "Images": [
+        {
+          "ImageID": "IMG27_1",
+          "SliceLocation": 0,
+          "ImagePath": "/dicom/patient_27/img_1.dcm"
+        },
+        {
+          "ImageID": "IMG27_2",
+          "SliceLocation": 5,
+          "ImagePath": "/dicom/patient_27/img_2.dcm"
+        },
+        {
+          "ImageID": "IMG27_3",
+          "SliceLocation": 10,
+          "ImagePath": "/dicom/patient_27/img_3.dcm"
+        }
+      ]
+    },
+    "Report": {
+      "Radiologist": "Dr. B. Smith",
+      "Findings": "Tumor",
+      "Impression": "Tumor noted in the Abdomen region.",
+      "Recommendations": "No further action required"
+    }
+  },
+  {
+    "Patient": {
+      "ID": "RID1027",
+      "Name": "Patient_28",
+      "Age": 37,
+      "Gender": "Female"
+    },
+    "Study": {
+      "Modality": "Ultrasound",
+      "Region": "Spine",
+      "StudyDate": "2025-07-28",
+      "Images": [
+        {
+          "ImageID": "IMG28_1",
+          "SliceLocation": 0,
+          "ImagePath": "/dicom/patient_28/img_1.dcm"
+        },
+        {
+          "ImageID": "IMG28_2",
+          "SliceLocation": 5,
+          "ImagePath": "/dicom/patient_28/img_2.dcm"
+        },
+        {
+          "ImageID": "IMG28_3",
+          "SliceLocation": 10,
+          "ImagePath": "/dicom/patient_28/img_3.dcm"
+        }
+      ]
+    },
+    "Report": {
+      "Radiologist": "Dr. C. Smith",
+      "Findings": "Infection",
+      "Impression": "Infection noted in the Spine region.",
+      "Recommendations": "Follow-up in 6 months"
+    }
+  },
+  {
+    "Patient": {
+      "ID": "RID1028",
+      "Name": "Patient_29",
+      "Age": 38,
+      "Gender": "Male"
+    },
+    "Study": {
+      "Modality": "PET",
+      "Region": "Pelvis",
+      "StudyDate": "2025-07-01",
+      "Images": [
+        {
+          "ImageID": "IMG29_1",
+          "SliceLocation": 0,
+          "ImagePath": "/dicom/patient_29/img_1.dcm"
+        },
+        {
+          "ImageID": "IMG29_2",
+          "SliceLocation": 5,
+          "ImagePath": "/dicom/patient_29/img_2.dcm"
+        },
+        {
+          "ImageID": "IMG29_3",
+          "SliceLocation": 10,
+          "ImagePath": "/dicom/patient_29/img_3.dcm"
+        }
+      ]
+    },
+    "Report": {
+      "Radiologist": "Dr. D. Smith",
+      "Findings": "Degeneration",
+      "Impression": "Degeneration noted in the Pelvis region.",
+      "Recommendations": "No further action required"
+    }
+  },
+  {
+    "Patient": {
+      "ID": "RID1029",
+      "Name": "Patient_30",
+      "Age": 39,
+      "Gender": "Female"
+    },
+    "Study": {
+      "Modality": "SPECT",
+      "Region": "Extremity",
+      "StudyDate": "2025-07-02",
+      "Images": [
+        {
+          "ImageID": "IMG30_1",
+          "SliceLocation": 0,
+          "ImagePath": "/dicom/patient_30/img_1.dcm"
+        },
+        {
+          "ImageID": "IMG30_2",
+          "SliceLocation": 5,
+          "ImagePath": "/dicom/patient_30/img_2.dcm"
+        },
+        {
+          "ImageID": "IMG30_3",
+          "SliceLocation": 10,
+          "ImagePath": "/dicom/patient_30/img_3.dcm"
+        }
+      ]
+    },
+    "Report": {
+      "Radiologist": "Dr. E. Smith",
+      "Findings": "Inflammation",
+      "Impression": "Inflammation noted in the Extremity region.",
+      "Recommendations": "No further action required"
+    }
+  }
+]
